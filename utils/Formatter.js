@@ -1,0 +1,4 @@
+/*
+ * Copyright (C) 2009-2021 SAP SE or an SAP affiliate company. All rights reserved.
+ */
+sap.ui.define(['sap/ui/core/format/DateFormat','../controller/Constants'],function(D,C){"use strict";var F={formatIconColor:function(v){var r="";switch(v){case"error":case"E":r=C.colorNames.Error;break;case"warning2":case"W":r=C.colorNames.Warning;break;case"S":r=C.colorNames.Success;break;default:r="";}return r;},formatMessageSeverity:function(v,c){var r="";if(this instanceof sap.ui.core.mvc.Controller){var b=this.getResourceBundle();}else if(c){b=c.getResourceBundle();}else{return v;}switch(v){case"E":r=b.getText("error");break;case"W":r=b.getText("warning");break;case"S":r=b.getText("success");break;}return r;},formatMessageSeverityIcon:function(v){var r="";switch(v){case"E":r="message-error";break;case"W":r="warning2";break;case"S":r="message-success";break;default:r="";}return r;}};return F;},true);

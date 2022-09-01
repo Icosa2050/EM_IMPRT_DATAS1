@@ -1,0 +1,798 @@
+{
+	"_version": "1.1.0",
+	"resources": [
+		{
+			"name": "Component-dbg.js",
+			"module": "ehs/em/import/datas1/Component.js",
+			"size": 965,
+			"isDebug": true,
+			"required": [
+				"ehs/em/import/datas1/model/models.js",
+				"sap/ui/Device.js",
+				"sap/ui/core/UIComponent.js"
+			]
+		},
+		{
+			"name": "Component-h2-preload-dbg.js",
+			"module": "ehs/em/import/datas1/Component-h2-preload.js",
+			"size": 4351,
+			"isDebug": true,
+			"merged": true,
+			"required": [
+				"sap/m/App.js",
+				"sap/m/Button.js",
+				"sap/m/Column.js",
+				"sap/m/ColumnListItem.js",
+				"sap/m/Dialog.js",
+				"sap/m/Label.js",
+				"sap/m/Link.js",
+				"sap/m/MessageBox.js",
+				"sap/m/MessagePopover.js",
+				"sap/m/MessagePopoverItem.js",
+				"sap/m/MessageToast.js",
+				"sap/m/OverflowToolbar.js",
+				"sap/m/Page.js",
+				"sap/m/Table.js",
+				"sap/m/Text.js",
+				"sap/m/Title.js",
+				"sap/m/ToolbarSpacer.js",
+				"sap/m/VBox.js",
+				"sap/ui/Device.js",
+				"sap/ui/base/Object.js",
+				"sap/ui/core/Fragment.js",
+				"sap/ui/core/Icon.js",
+				"sap/ui/core/MessageType.js",
+				"sap/ui/core/UIComponent.js",
+				"sap/ui/core/format/DateFormat.js",
+				"sap/ui/core/message/Message.js",
+				"sap/ui/core/mvc/Controller.js",
+				"sap/ui/core/mvc/XMLView.js",
+				"sap/ui/core/util/Export.js",
+				"sap/ui/core/util/ExportTypeCSV.js",
+				"sap/ui/model/json/JSONModel.js",
+				"sap/ui/unified/FileUploader.js"
+			],
+			"included": [
+				"ehs/em/import/datas1/Component.js",
+				"ehs/em/import/datas1/manifest.json",
+				"ehs/em/import/datas1/controller/BaseController.js",
+				"ehs/em/import/datas1/controller/Constants.js",
+				"ehs/em/import/datas1/controller/Import.controller.js",
+				"ehs/em/import/datas1/i18n/i18n.properties",
+				"ehs/em/import/datas1/i18n/i18n_ar.properties",
+				"ehs/em/import/datas1/i18n/i18n_bg.properties",
+				"ehs/em/import/datas1/i18n/i18n_ca.properties",
+				"ehs/em/import/datas1/i18n/i18n_cs.properties",
+				"ehs/em/import/datas1/i18n/i18n_da.properties",
+				"ehs/em/import/datas1/i18n/i18n_de.properties",
+				"ehs/em/import/datas1/i18n/i18n_el.properties",
+				"ehs/em/import/datas1/i18n/i18n_en.properties",
+				"ehs/em/import/datas1/i18n/i18n_en_US_sappsd.properties",
+				"ehs/em/import/datas1/i18n/i18n_en_US_saptrc.properties",
+				"ehs/em/import/datas1/i18n/i18n_es.properties",
+				"ehs/em/import/datas1/i18n/i18n_et.properties",
+				"ehs/em/import/datas1/i18n/i18n_fi.properties",
+				"ehs/em/import/datas1/i18n/i18n_fr.properties",
+				"ehs/em/import/datas1/i18n/i18n_hi.properties",
+				"ehs/em/import/datas1/i18n/i18n_hr.properties",
+				"ehs/em/import/datas1/i18n/i18n_hu.properties",
+				"ehs/em/import/datas1/i18n/i18n_it.properties",
+				"ehs/em/import/datas1/i18n/i18n_iw.properties",
+				"ehs/em/import/datas1/i18n/i18n_ja.properties",
+				"ehs/em/import/datas1/i18n/i18n_kk.properties",
+				"ehs/em/import/datas1/i18n/i18n_ko.properties",
+				"ehs/em/import/datas1/i18n/i18n_lt.properties",
+				"ehs/em/import/datas1/i18n/i18n_lv.properties",
+				"ehs/em/import/datas1/i18n/i18n_ms.properties",
+				"ehs/em/import/datas1/i18n/i18n_nl.properties",
+				"ehs/em/import/datas1/i18n/i18n_no.properties",
+				"ehs/em/import/datas1/i18n/i18n_pl.properties",
+				"ehs/em/import/datas1/i18n/i18n_pt.properties",
+				"ehs/em/import/datas1/i18n/i18n_ro.properties",
+				"ehs/em/import/datas1/i18n/i18n_ru.properties",
+				"ehs/em/import/datas1/i18n/i18n_sh.properties",
+				"ehs/em/import/datas1/i18n/i18n_sk.properties",
+				"ehs/em/import/datas1/i18n/i18n_sl.properties",
+				"ehs/em/import/datas1/i18n/i18n_sv.properties",
+				"ehs/em/import/datas1/i18n/i18n_th.properties",
+				"ehs/em/import/datas1/i18n/i18n_tr.properties",
+				"ehs/em/import/datas1/i18n/i18n_uk.properties",
+				"ehs/em/import/datas1/i18n/i18n_vi.properties",
+				"ehs/em/import/datas1/i18n/i18n_zh_CN.properties",
+				"ehs/em/import/datas1/i18n/i18n_zh_TW.properties",
+				"ehs/em/import/datas1/model/models.js",
+				"ehs/em/import/datas1/utils/AmountImportDialog.js",
+				"ehs/em/import/datas1/utils/Formatter.js",
+				"ehs/em/import/datas1/view/Import.view.xml",
+				"ehs/em/import/datas1/view/ImportEnvDataDialog.fragment.xml"
+			]
+		},
+		{
+			"name": "Component-h2-preload.js",
+			"module": "ehs/em/import/datas1/Component-h2-preload.js",
+			"size": 4277,
+			"merged": true,
+			"required": [
+				"sap/m/App.js",
+				"sap/m/Button.js",
+				"sap/m/Column.js",
+				"sap/m/ColumnListItem.js",
+				"sap/m/Dialog.js",
+				"sap/m/Label.js",
+				"sap/m/Link.js",
+				"sap/m/MessageBox.js",
+				"sap/m/MessagePopover.js",
+				"sap/m/MessagePopoverItem.js",
+				"sap/m/MessageToast.js",
+				"sap/m/OverflowToolbar.js",
+				"sap/m/Page.js",
+				"sap/m/Table.js",
+				"sap/m/Text.js",
+				"sap/m/Title.js",
+				"sap/m/ToolbarSpacer.js",
+				"sap/m/VBox.js",
+				"sap/ui/Device.js",
+				"sap/ui/base/Object.js",
+				"sap/ui/core/Fragment.js",
+				"sap/ui/core/Icon.js",
+				"sap/ui/core/MessageType.js",
+				"sap/ui/core/UIComponent.js",
+				"sap/ui/core/format/DateFormat.js",
+				"sap/ui/core/message/Message.js",
+				"sap/ui/core/mvc/Controller.js",
+				"sap/ui/core/mvc/XMLView.js",
+				"sap/ui/core/util/Export.js",
+				"sap/ui/core/util/ExportTypeCSV.js",
+				"sap/ui/model/json/JSONModel.js",
+				"sap/ui/unified/FileUploader.js"
+			],
+			"included": [
+				"ehs/em/import/datas1/Component.js",
+				"ehs/em/import/datas1/manifest.json",
+				"ehs/em/import/datas1/controller/BaseController.js",
+				"ehs/em/import/datas1/controller/Constants.js",
+				"ehs/em/import/datas1/controller/Import.controller.js",
+				"ehs/em/import/datas1/i18n/i18n.properties",
+				"ehs/em/import/datas1/i18n/i18n_ar.properties",
+				"ehs/em/import/datas1/i18n/i18n_bg.properties",
+				"ehs/em/import/datas1/i18n/i18n_ca.properties",
+				"ehs/em/import/datas1/i18n/i18n_cs.properties",
+				"ehs/em/import/datas1/i18n/i18n_da.properties",
+				"ehs/em/import/datas1/i18n/i18n_de.properties",
+				"ehs/em/import/datas1/i18n/i18n_el.properties",
+				"ehs/em/import/datas1/i18n/i18n_en.properties",
+				"ehs/em/import/datas1/i18n/i18n_en_US_sappsd.properties",
+				"ehs/em/import/datas1/i18n/i18n_en_US_saptrc.properties",
+				"ehs/em/import/datas1/i18n/i18n_es.properties",
+				"ehs/em/import/datas1/i18n/i18n_et.properties",
+				"ehs/em/import/datas1/i18n/i18n_fi.properties",
+				"ehs/em/import/datas1/i18n/i18n_fr.properties",
+				"ehs/em/import/datas1/i18n/i18n_hi.properties",
+				"ehs/em/import/datas1/i18n/i18n_hr.properties",
+				"ehs/em/import/datas1/i18n/i18n_hu.properties",
+				"ehs/em/import/datas1/i18n/i18n_it.properties",
+				"ehs/em/import/datas1/i18n/i18n_iw.properties",
+				"ehs/em/import/datas1/i18n/i18n_ja.properties",
+				"ehs/em/import/datas1/i18n/i18n_kk.properties",
+				"ehs/em/import/datas1/i18n/i18n_ko.properties",
+				"ehs/em/import/datas1/i18n/i18n_lt.properties",
+				"ehs/em/import/datas1/i18n/i18n_lv.properties",
+				"ehs/em/import/datas1/i18n/i18n_ms.properties",
+				"ehs/em/import/datas1/i18n/i18n_nl.properties",
+				"ehs/em/import/datas1/i18n/i18n_no.properties",
+				"ehs/em/import/datas1/i18n/i18n_pl.properties",
+				"ehs/em/import/datas1/i18n/i18n_pt.properties",
+				"ehs/em/import/datas1/i18n/i18n_ro.properties",
+				"ehs/em/import/datas1/i18n/i18n_ru.properties",
+				"ehs/em/import/datas1/i18n/i18n_sh.properties",
+				"ehs/em/import/datas1/i18n/i18n_sk.properties",
+				"ehs/em/import/datas1/i18n/i18n_sl.properties",
+				"ehs/em/import/datas1/i18n/i18n_sv.properties",
+				"ehs/em/import/datas1/i18n/i18n_th.properties",
+				"ehs/em/import/datas1/i18n/i18n_tr.properties",
+				"ehs/em/import/datas1/i18n/i18n_uk.properties",
+				"ehs/em/import/datas1/i18n/i18n_vi.properties",
+				"ehs/em/import/datas1/i18n/i18n_zh_CN.properties",
+				"ehs/em/import/datas1/i18n/i18n_zh_TW.properties",
+				"ehs/em/import/datas1/model/models.js",
+				"ehs/em/import/datas1/utils/AmountImportDialog.js",
+				"ehs/em/import/datas1/utils/Formatter.js",
+				"ehs/em/import/datas1/view/Import.view.xml",
+				"ehs/em/import/datas1/view/ImportEnvDataDialog.fragment.xml"
+			]
+		},
+		{
+			"name": "Component-preload.js",
+			"module": "ehs/em/import/datas1/Component-preload.js",
+			"size": 87558,
+			"merged": true,
+			"required": [
+				"sap/m/App.js",
+				"sap/m/Button.js",
+				"sap/m/Column.js",
+				"sap/m/ColumnListItem.js",
+				"sap/m/Dialog.js",
+				"sap/m/Label.js",
+				"sap/m/Link.js",
+				"sap/m/MessageBox.js",
+				"sap/m/MessagePopover.js",
+				"sap/m/MessagePopoverItem.js",
+				"sap/m/MessageToast.js",
+				"sap/m/OverflowToolbar.js",
+				"sap/m/Page.js",
+				"sap/m/Table.js",
+				"sap/m/Text.js",
+				"sap/m/Title.js",
+				"sap/m/ToolbarSpacer.js",
+				"sap/m/VBox.js",
+				"sap/ui/Device.js",
+				"sap/ui/base/Object.js",
+				"sap/ui/core/Fragment.js",
+				"sap/ui/core/Icon.js",
+				"sap/ui/core/MessageType.js",
+				"sap/ui/core/UIComponent.js",
+				"sap/ui/core/format/DateFormat.js",
+				"sap/ui/core/message/Message.js",
+				"sap/ui/core/mvc/Controller.js",
+				"sap/ui/core/mvc/XMLView.js",
+				"sap/ui/core/util/Export.js",
+				"sap/ui/core/util/ExportTypeCSV.js",
+				"sap/ui/model/json/JSONModel.js",
+				"sap/ui/unified/FileUploader.js"
+			],
+			"included": [
+				"ehs/em/import/datas1/Component.js",
+				"ehs/em/import/datas1/controller/BaseController.js",
+				"ehs/em/import/datas1/controller/Constants.js",
+				"ehs/em/import/datas1/controller/Import.controller.js",
+				"ehs/em/import/datas1/i18n/i18n.properties",
+				"ehs/em/import/datas1/i18n/i18n_ar.properties",
+				"ehs/em/import/datas1/i18n/i18n_bg.properties",
+				"ehs/em/import/datas1/i18n/i18n_ca.properties",
+				"ehs/em/import/datas1/i18n/i18n_cs.properties",
+				"ehs/em/import/datas1/i18n/i18n_da.properties",
+				"ehs/em/import/datas1/i18n/i18n_de.properties",
+				"ehs/em/import/datas1/i18n/i18n_el.properties",
+				"ehs/em/import/datas1/i18n/i18n_en.properties",
+				"ehs/em/import/datas1/i18n/i18n_en_US_sappsd.properties",
+				"ehs/em/import/datas1/i18n/i18n_en_US_saptrc.properties",
+				"ehs/em/import/datas1/i18n/i18n_es.properties",
+				"ehs/em/import/datas1/i18n/i18n_et.properties",
+				"ehs/em/import/datas1/i18n/i18n_fi.properties",
+				"ehs/em/import/datas1/i18n/i18n_fr.properties",
+				"ehs/em/import/datas1/i18n/i18n_hi.properties",
+				"ehs/em/import/datas1/i18n/i18n_hr.properties",
+				"ehs/em/import/datas1/i18n/i18n_hu.properties",
+				"ehs/em/import/datas1/i18n/i18n_it.properties",
+				"ehs/em/import/datas1/i18n/i18n_iw.properties",
+				"ehs/em/import/datas1/i18n/i18n_ja.properties",
+				"ehs/em/import/datas1/i18n/i18n_kk.properties",
+				"ehs/em/import/datas1/i18n/i18n_ko.properties",
+				"ehs/em/import/datas1/i18n/i18n_lt.properties",
+				"ehs/em/import/datas1/i18n/i18n_lv.properties",
+				"ehs/em/import/datas1/i18n/i18n_ms.properties",
+				"ehs/em/import/datas1/i18n/i18n_nl.properties",
+				"ehs/em/import/datas1/i18n/i18n_no.properties",
+				"ehs/em/import/datas1/i18n/i18n_pl.properties",
+				"ehs/em/import/datas1/i18n/i18n_pt.properties",
+				"ehs/em/import/datas1/i18n/i18n_ro.properties",
+				"ehs/em/import/datas1/i18n/i18n_ru.properties",
+				"ehs/em/import/datas1/i18n/i18n_sh.properties",
+				"ehs/em/import/datas1/i18n/i18n_sk.properties",
+				"ehs/em/import/datas1/i18n/i18n_sl.properties",
+				"ehs/em/import/datas1/i18n/i18n_sv.properties",
+				"ehs/em/import/datas1/i18n/i18n_th.properties",
+				"ehs/em/import/datas1/i18n/i18n_tr.properties",
+				"ehs/em/import/datas1/i18n/i18n_uk.properties",
+				"ehs/em/import/datas1/i18n/i18n_vi.properties",
+				"ehs/em/import/datas1/i18n/i18n_zh_CN.properties",
+				"ehs/em/import/datas1/i18n/i18n_zh_TW.properties",
+				"ehs/em/import/datas1/manifest.json",
+				"ehs/em/import/datas1/model/models.js",
+				"ehs/em/import/datas1/utils/AmountImportDialog.js",
+				"ehs/em/import/datas1/utils/Formatter.js",
+				"ehs/em/import/datas1/view/Import.view.xml",
+				"ehs/em/import/datas1/view/ImportEnvDataDialog.fragment.xml"
+			]
+		},
+		{
+			"name": "Component.js",
+			"module": "ehs/em/import/datas1/Component.js",
+			"size": 463,
+			"required": [
+				"ehs/em/import/datas1/model/models.js",
+				"sap/ui/Device.js",
+				"sap/ui/core/UIComponent.js"
+			]
+		},
+		{
+			"name": "attachments/EnvDataImportTemplate.xlsx.zip",
+			"size": 11130
+		},
+		{
+			"name": "controller/BaseController-dbg.js",
+			"module": "ehs/em/import/datas1/controller/BaseController.js",
+			"size": 1754,
+			"isDebug": true,
+			"required": [
+				"ehs/em/import/datas1/controller/Constants.js",
+				"sap/m/MessagePopover.js",
+				"sap/m/MessagePopoverItem.js",
+				"sap/ui/core/mvc/Controller.js"
+			]
+		},
+		{
+			"name": "controller/BaseController.js",
+			"module": "ehs/em/import/datas1/controller/BaseController.js",
+			"size": 643,
+			"required": [
+				"ehs/em/import/datas1/controller/Constants.js",
+				"sap/m/MessagePopover.js",
+				"sap/m/MessagePopoverItem.js",
+				"sap/ui/core/mvc/Controller.js"
+			]
+		},
+		{
+			"name": "controller/Constants-dbg.js",
+			"module": "ehs/em/import/datas1/controller/Constants.js",
+			"size": 547,
+			"isDebug": true
+		},
+		{
+			"name": "controller/Constants.js",
+			"module": "ehs/em/import/datas1/controller/Constants.js",
+			"size": 457
+		},
+		{
+			"name": "controller/Import-dbg.controller.js",
+			"module": "ehs/em/import/datas1/controller/Import.controller.js",
+			"size": 3253,
+			"isDebug": true,
+			"required": [
+				"ehs/em/import/datas1/controller/BaseController.js",
+				"ehs/em/import/datas1/controller/Constants.js",
+				"ehs/em/import/datas1/utils/AmountImportDialog.js",
+				"ehs/em/import/datas1/utils/Formatter.js",
+				"sap/ui/core/util/Export.js",
+				"sap/ui/core/util/ExportTypeCSV.js"
+			]
+		},
+		{
+			"name": "controller/Import.controller.js",
+			"module": "ehs/em/import/datas1/controller/Import.controller.js",
+			"size": 1811,
+			"required": [
+				"ehs/em/import/datas1/controller/BaseController.js",
+				"ehs/em/import/datas1/controller/Constants.js",
+				"ehs/em/import/datas1/utils/AmountImportDialog.js",
+				"ehs/em/import/datas1/utils/Formatter.js",
+				"sap/ui/core/util/Export.js",
+				"sap/ui/core/util/ExportTypeCSV.js"
+			]
+		},
+		{
+			"name": "css/style-dbg.css",
+			"size": 35,
+			"isDebug": true
+		},
+		{
+			"name": "css/style.css",
+			"size": 0
+		},
+		{
+			"name": "i18n/i18n.properties",
+			"module": "ehs/em/import/datas1/i18n/i18n.properties",
+			"size": 2222,
+			"locale": "",
+			"raw": "i18n/i18n.properties"
+		},
+		{
+			"name": "i18n/i18n_ar.properties",
+			"module": "ehs/em/import/datas1/i18n/i18n_ar.properties",
+			"size": 3862,
+			"locale": "ar",
+			"raw": "i18n/i18n.properties"
+		},
+		{
+			"name": "i18n/i18n_bg.properties",
+			"module": "ehs/em/import/datas1/i18n/i18n_bg.properties",
+			"size": 4735,
+			"locale": "bg",
+			"raw": "i18n/i18n.properties"
+		},
+		{
+			"name": "i18n/i18n_ca.properties",
+			"module": "ehs/em/import/datas1/i18n/i18n_ca.properties",
+			"size": 2259,
+			"locale": "ca",
+			"raw": "i18n/i18n.properties"
+		},
+		{
+			"name": "i18n/i18n_cs.properties",
+			"module": "ehs/em/import/datas1/i18n/i18n_cs.properties",
+			"size": 2322,
+			"locale": "cs",
+			"raw": "i18n/i18n.properties"
+		},
+		{
+			"name": "i18n/i18n_da.properties",
+			"module": "ehs/em/import/datas1/i18n/i18n_da.properties",
+			"size": 2147,
+			"locale": "da",
+			"raw": "i18n/i18n.properties"
+		},
+		{
+			"name": "i18n/i18n_de.properties",
+			"module": "ehs/em/import/datas1/i18n/i18n_de.properties",
+			"size": 2233,
+			"locale": "de",
+			"raw": "i18n/i18n.properties"
+		},
+		{
+			"name": "i18n/i18n_el.properties",
+			"module": "ehs/em/import/datas1/i18n/i18n_el.properties",
+			"size": 4755,
+			"locale": "el",
+			"raw": "i18n/i18n.properties"
+		},
+		{
+			"name": "i18n/i18n_en.properties",
+			"module": "ehs/em/import/datas1/i18n/i18n_en.properties",
+			"size": 2113,
+			"locale": "en",
+			"raw": "i18n/i18n.properties"
+		},
+		{
+			"name": "i18n/i18n_en_US_sappsd.properties",
+			"module": "ehs/em/import/datas1/i18n/i18n_en_US_sappsd.properties",
+			"size": 5527,
+			"locale": "en_US_sappsd",
+			"raw": "i18n/i18n.properties"
+		},
+		{
+			"name": "i18n/i18n_en_US_saptrc.properties",
+			"module": "ehs/em/import/datas1/i18n/i18n_en_US_saptrc.properties",
+			"size": 2550,
+			"locale": "en_US_saptrc",
+			"raw": "i18n/i18n.properties"
+		},
+		{
+			"name": "i18n/i18n_es.properties",
+			"module": "ehs/em/import/datas1/i18n/i18n_es.properties",
+			"size": 2272,
+			"locale": "es",
+			"raw": "i18n/i18n.properties"
+		},
+		{
+			"name": "i18n/i18n_et.properties",
+			"module": "ehs/em/import/datas1/i18n/i18n_et.properties",
+			"size": 2151,
+			"locale": "et",
+			"raw": "i18n/i18n.properties"
+		},
+		{
+			"name": "i18n/i18n_fi.properties",
+			"module": "ehs/em/import/datas1/i18n/i18n_fi.properties",
+			"size": 2263,
+			"locale": "fi",
+			"raw": "i18n/i18n.properties"
+		},
+		{
+			"name": "i18n/i18n_fr.properties",
+			"module": "ehs/em/import/datas1/i18n/i18n_fr.properties",
+			"size": 2383,
+			"locale": "fr",
+			"raw": "i18n/i18n.properties"
+		},
+		{
+			"name": "i18n/i18n_hi.properties",
+			"module": "ehs/em/import/datas1/i18n/i18n_hi.properties",
+			"size": 4315,
+			"locale": "hi",
+			"raw": "i18n/i18n.properties"
+		},
+		{
+			"name": "i18n/i18n_hr.properties",
+			"module": "ehs/em/import/datas1/i18n/i18n_hr.properties",
+			"size": 2226,
+			"locale": "hr",
+			"raw": "i18n/i18n.properties"
+		},
+		{
+			"name": "i18n/i18n_hu.properties",
+			"module": "ehs/em/import/datas1/i18n/i18n_hu.properties",
+			"size": 2559,
+			"locale": "hu",
+			"raw": "i18n/i18n.properties"
+		},
+		{
+			"name": "i18n/i18n_it.properties",
+			"module": "ehs/em/import/datas1/i18n/i18n_it.properties",
+			"size": 2216,
+			"locale": "it",
+			"raw": "i18n/i18n.properties"
+		},
+		{
+			"name": "i18n/i18n_iw.properties",
+			"module": "ehs/em/import/datas1/i18n/i18n_iw.properties",
+			"size": 3442,
+			"locale": "iw",
+			"raw": "i18n/i18n.properties"
+		},
+		{
+			"name": "i18n/i18n_ja.properties",
+			"module": "ehs/em/import/datas1/i18n/i18n_ja.properties",
+			"size": 3265,
+			"locale": "ja",
+			"raw": "i18n/i18n.properties"
+		},
+		{
+			"name": "i18n/i18n_kk.properties",
+			"module": "ehs/em/import/datas1/i18n/i18n_kk.properties",
+			"size": 4718,
+			"locale": "kk",
+			"raw": "i18n/i18n.properties"
+		},
+		{
+			"name": "i18n/i18n_ko.properties",
+			"module": "ehs/em/import/datas1/i18n/i18n_ko.properties",
+			"size": 2887,
+			"locale": "ko",
+			"raw": "i18n/i18n.properties"
+		},
+		{
+			"name": "i18n/i18n_lt.properties",
+			"module": "ehs/em/import/datas1/i18n/i18n_lt.properties",
+			"size": 2418,
+			"locale": "lt",
+			"raw": "i18n/i18n.properties"
+		},
+		{
+			"name": "i18n/i18n_lv.properties",
+			"module": "ehs/em/import/datas1/i18n/i18n_lv.properties",
+			"size": 2455,
+			"locale": "lv",
+			"raw": "i18n/i18n.properties"
+		},
+		{
+			"name": "i18n/i18n_ms.properties",
+			"module": "ehs/em/import/datas1/i18n/i18n_ms.properties",
+			"size": 2105,
+			"locale": "ms",
+			"raw": "i18n/i18n.properties"
+		},
+		{
+			"name": "i18n/i18n_nl.properties",
+			"module": "ehs/em/import/datas1/i18n/i18n_nl.properties",
+			"size": 2125,
+			"locale": "nl",
+			"raw": "i18n/i18n.properties"
+		},
+		{
+			"name": "i18n/i18n_no.properties",
+			"module": "ehs/em/import/datas1/i18n/i18n_no.properties",
+			"size": 2130,
+			"locale": "no",
+			"raw": "i18n/i18n.properties"
+		},
+		{
+			"name": "i18n/i18n_pl.properties",
+			"module": "ehs/em/import/datas1/i18n/i18n_pl.properties",
+			"size": 2271,
+			"locale": "pl",
+			"raw": "i18n/i18n.properties"
+		},
+		{
+			"name": "i18n/i18n_pt.properties",
+			"module": "ehs/em/import/datas1/i18n/i18n_pt.properties",
+			"size": 2215,
+			"locale": "pt",
+			"raw": "i18n/i18n.properties"
+		},
+		{
+			"name": "i18n/i18n_ro.properties",
+			"module": "ehs/em/import/datas1/i18n/i18n_ro.properties",
+			"size": 2335,
+			"locale": "ro",
+			"raw": "i18n/i18n.properties"
+		},
+		{
+			"name": "i18n/i18n_ru.properties",
+			"module": "ehs/em/import/datas1/i18n/i18n_ru.properties",
+			"size": 4510,
+			"locale": "ru",
+			"raw": "i18n/i18n.properties"
+		},
+		{
+			"name": "i18n/i18n_sh.properties",
+			"module": "ehs/em/import/datas1/i18n/i18n_sh.properties",
+			"size": 2206,
+			"locale": "sh",
+			"raw": "i18n/i18n.properties"
+		},
+		{
+			"name": "i18n/i18n_sk.properties",
+			"module": "ehs/em/import/datas1/i18n/i18n_sk.properties",
+			"size": 2392,
+			"locale": "sk",
+			"raw": "i18n/i18n.properties"
+		},
+		{
+			"name": "i18n/i18n_sl.properties",
+			"module": "ehs/em/import/datas1/i18n/i18n_sl.properties",
+			"size": 2231,
+			"locale": "sl",
+			"raw": "i18n/i18n.properties"
+		},
+		{
+			"name": "i18n/i18n_sv.properties",
+			"module": "ehs/em/import/datas1/i18n/i18n_sv.properties",
+			"size": 2152,
+			"locale": "sv",
+			"raw": "i18n/i18n.properties"
+		},
+		{
+			"name": "i18n/i18n_th.properties",
+			"module": "ehs/em/import/datas1/i18n/i18n_th.properties",
+			"size": 4263,
+			"locale": "th",
+			"raw": "i18n/i18n.properties"
+		},
+		{
+			"name": "i18n/i18n_tr.properties",
+			"module": "ehs/em/import/datas1/i18n/i18n_tr.properties",
+			"size": 2416,
+			"locale": "tr",
+			"raw": "i18n/i18n.properties"
+		},
+		{
+			"name": "i18n/i18n_uk.properties",
+			"module": "ehs/em/import/datas1/i18n/i18n_uk.properties",
+			"size": 4757,
+			"locale": "uk",
+			"raw": "i18n/i18n.properties"
+		},
+		{
+			"name": "i18n/i18n_vi.properties",
+			"module": "ehs/em/import/datas1/i18n/i18n_vi.properties",
+			"size": 3055,
+			"locale": "vi",
+			"raw": "i18n/i18n.properties"
+		},
+		{
+			"name": "i18n/i18n_zh_CN.properties",
+			"module": "ehs/em/import/datas1/i18n/i18n_zh_CN.properties",
+			"size": 2510,
+			"locale": "zh_CN",
+			"raw": "i18n/i18n.properties"
+		},
+		{
+			"name": "i18n/i18n_zh_TW.properties",
+			"module": "ehs/em/import/datas1/i18n/i18n_zh_TW.properties",
+			"size": 2558,
+			"locale": "zh_TW",
+			"raw": "i18n/i18n.properties"
+		},
+		{
+			"name": "manifest.json",
+			"module": "ehs/em/import/datas1/manifest.json",
+			"size": 2469
+		},
+		{
+			"name": "model/models-dbg.js",
+			"module": "ehs/em/import/datas1/model/models.js",
+			"size": 362,
+			"isDebug": true,
+			"required": [
+				"sap/ui/Device.js",
+				"sap/ui/model/json/JSONModel.js"
+			]
+		},
+		{
+			"name": "model/models.js",
+			"module": "ehs/em/import/datas1/model/models.js",
+			"size": 281,
+			"required": [
+				"sap/ui/Device.js",
+				"sap/ui/model/json/JSONModel.js"
+			]
+		},
+		{
+			"name": "resources.json",
+			"size": 15057
+		},
+		{
+			"name": "utils/AmountImportDialog-dbg.js",
+			"module": "ehs/em/import/datas1/utils/AmountImportDialog.js",
+			"size": 4980,
+			"isDebug": true,
+			"required": [
+				"ehs/em/import/datas1/controller/Constants.js",
+				"ehs/em/import/datas1/utils/Formatter.js",
+				"sap/m/MessageBox.js",
+				"sap/m/MessageToast.js",
+				"sap/ui/base/Object.js",
+				"sap/ui/core/MessageType.js",
+				"sap/ui/core/message/Message.js",
+				"sap/ui/core/util/Export.js",
+				"sap/ui/core/util/ExportTypeCSV.js",
+				"sap/ui/model/json/JSONModel.js"
+			]
+		},
+		{
+			"name": "utils/AmountImportDialog.js",
+			"module": "ehs/em/import/datas1/utils/AmountImportDialog.js",
+			"size": 2590,
+			"required": [
+				"ehs/em/import/datas1/controller/Constants.js",
+				"ehs/em/import/datas1/utils/Formatter.js",
+				"sap/m/MessageBox.js",
+				"sap/m/MessageToast.js",
+				"sap/ui/base/Object.js",
+				"sap/ui/core/MessageType.js",
+				"sap/ui/core/message/Message.js",
+				"sap/ui/core/util/Export.js",
+				"sap/ui/core/util/ExportTypeCSV.js",
+				"sap/ui/model/json/JSONModel.js"
+			]
+		},
+		{
+			"name": "utils/Formatter-dbg.js",
+			"module": "ehs/em/import/datas1/utils/Formatter.js",
+			"size": 2103,
+			"isDebug": true,
+			"required": [
+				"ehs/em/import/datas1/controller/Constants.js",
+				"sap/ui/core/format/DateFormat.js"
+			]
+		},
+		{
+			"name": "utils/Formatter.js",
+			"module": "ehs/em/import/datas1/utils/Formatter.js",
+			"size": 907,
+			"required": [
+				"ehs/em/import/datas1/controller/Constants.js",
+				"sap/ui/core/format/DateFormat.js"
+			]
+		},
+		{
+			"name": "version.json",
+			"size": 350
+		},
+		{
+			"name": "view/Import.view.xml",
+			"module": "ehs/em/import/datas1/view/Import.view.xml",
+			"size": 2657,
+			"required": [
+				"ehs/em/import/datas1/controller/Import.controller.js",
+				"sap/m/App.js",
+				"sap/m/Button.js",
+				"sap/m/Column.js",
+				"sap/m/ColumnListItem.js",
+				"sap/m/Label.js",
+				"sap/m/Link.js",
+				"sap/m/OverflowToolbar.js",
+				"sap/m/Page.js",
+				"sap/m/Table.js",
+				"sap/m/Text.js",
+				"sap/m/Title.js",
+				"sap/m/ToolbarSpacer.js",
+				"sap/ui/core/Icon.js",
+				"sap/ui/core/mvc/XMLView.js"
+			]
+		},
+		{
+			"name": "view/ImportEnvDataDialog.fragment.xml",
+			"module": "ehs/em/import/datas1/view/ImportEnvDataDialog.fragment.xml",
+			"size": 1203,
+			"required": [
+				"sap/m/Button.js",
+				"sap/m/Dialog.js",
+				"sap/m/Link.js",
+				"sap/m/VBox.js",
+				"sap/ui/core/Fragment.js",
+				"sap/ui/unified/FileUploader.js"
+			]
+		}
+	]
+}

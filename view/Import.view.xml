@@ -1,0 +1,62 @@
+<!--
+
+    Copyright (C) 2009-2021 SAP SE or an SAP affiliate company. All rights reserved.
+
+-->
+<mvc:View xmlns:html="http://www.w3.org/1999/xhtml" xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" xmlns:core="sap.ui.core"
+	controllerName="ehs.em.import.datas1.controller.Import" displayBlock="true">
+	<App id="import">
+		<pages>
+			<Page id="appMainPage" title="{i18n>appTitle}" backgroundDesign="Solid" showHeader="false" class="sapUiContentPadding">
+				<content>
+					<Table id="messageTable" items="{messages>/rows}">
+						<items>
+							<ColumnListItem id="itemMessage">
+								<cells>
+									<core:Icon id="iconMessageSeverity" src="sap-icon://{path: 'messages>Severity', formatter: '.formatter.formatMessageSeverityIcon'}" 
+									color="{path:'messages>Severity', formatter:'.formatter.formatIconColor'}"
+									tooltip="{path: 'messages>Severity', formatter: '.formatter.formatMessageSeverity'}"/>
+									<Text id="txtMessageText" text="{messages>Message}"/>
+									<Link id="linkDataCollection" text="{messages>Title}" press="onPressCollection" />
+								</cells>
+							</ColumnListItem>
+						</items>
+						<columns>
+							<Column id="colMessageSeverity" width="10%" minScreenWidth="Tablet" popinDisplay="WithoutHeader" demandPopin="true">
+								<header>
+									<Label id="severityLabel" text="{i18n>severity}"/>
+								</header>
+							</Column>
+							<Column id="colMessageText">
+								<header>
+									<Label id="messageLabel" text="{i18n>message}"/>
+								</header>
+							</Column>
+							<Column id="colDataCollection" width="25%" minScreenWidth="Desktop" popinDisplay="WithoutHeader" demandPopin="true">
+								<header>
+									<Label id="lblDataCollection" text="{i18n>dataTitle}"/>
+								</header>
+							</Column>
+						</columns>
+						<headerToolbar>
+							<OverflowToolbar id="messageTableToolbar" width="100%">
+								<content>
+									<Title id="msgTitle" text="{i18n>messagesInit}"/>
+									<ToolbarSpacer id="messageTableToolbarSpacer"/>
+									<Button id="linkDownloadTemplateMain" text="{i18n>downloadImportTemplate}" press="onTemplateDownload" class="sapUiSmallMarginBeginEnd"/>
+									<Button id="linkExportCSV" text="{i18n>downloadAsCSV}" press="onExportCSV" class="sapUiSmallMarginBeginEnd"/>
+								</content>
+							</OverflowToolbar>
+						</headerToolbar>
+					</Table>
+				</content>
+				<footer>
+					<OverflowToolbar id="pageFooterToolbar">
+						<ToolbarSpacer id="pageFooterToolbarSpacer"/>
+						<Button text="{i18n>appTitle}" type="Emphasized" press="onImportPress" id="ImportButtoninMainScreen"/>
+					</OverflowToolbar>
+				</footer>
+			</Page>
+		</pages>
+	</App> 
+</mvc:View>

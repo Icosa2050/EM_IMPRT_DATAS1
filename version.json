@@ -1,0 +1,13 @@
+{
+  "application": "ehs.em.import.datas1",
+  "version": "9.0.1",
+  "buildNumber": "1",
+  "buildId": "1",
+  "branch": "detached",
+  "revision": "9640a0c4f74a1317e2d0bb8e25121ff38465645b",
+  "GitURL": "",
+  "buildStatus": "${env.buildStatus}",
+  "translationComplete": "${env.translationComplete}",
+  "cidi": "${env.cidi}",
+  "cfdCM": "${env.cfdCM}"
+}
